@@ -4,7 +4,7 @@ const cors = require('cors')
 const app = express()
 require('./mongoose')
 const userRouter= require('./routes/userRoute')
-const port= process.env.port||3000
+const port= process.env.port||3001
 app.listen(port,()=>{
     console.log("Server is up on port:",port)
 })

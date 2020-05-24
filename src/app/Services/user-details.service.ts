@@ -6,7 +6,7 @@ import { Observable, throwError } from 'rxjs';
 
 
 const SERVER_IP = '13.234.110.203';
-const API_URL = `http://${SERVER_IP}/api/userdetails/`;
+const API_URL = `http://${SERVER_IP}:3000/api/userdetails/`;
 
 @Injectable({
   providedIn: 'root'
