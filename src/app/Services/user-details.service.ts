@@ -5,7 +5,7 @@ import { map, retry, catchError } from 'rxjs/operators';
 import { Observable, throwError } from 'rxjs';
 
 
-const SERVER_IP = '13.234.110.203';
+const SERVER_IP = '13.232.242.8';
 const API_URL = `http://${SERVER_IP}:3000/api/userdetails/`;
 
 @Injectable({

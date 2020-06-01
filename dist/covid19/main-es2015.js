@@ -485,7 +485,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const SERVER_IP = '13.234.110.203';
+const SERVER_IP = '13.232.242.8';
 const API_URL = `http://${SERVER_IP}:3000/api/userdetails/`;
 let UserDetailsService = class UserDetailsService {
     constructor(_http) {

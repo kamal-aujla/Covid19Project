@@ -492,7 +492,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var SERVER_IP = '13.234.110.203';
+var SERVER_IP = '13.232.242.8';
 var API_URL = "http://" + SERVER_IP + ":3000/api/userdetails/";
 var UserDetailsService = /** @class */ (function () {
     function UserDetailsService(_http) {
